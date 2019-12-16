@@ -1,9 +1,3 @@
-body {
-  background-color: grey;
-  min-height: 100%;
-  margin: 0;
-}
-
 body header {
   position: relative;
   height: 40em;
@@ -102,5 +96,202 @@ body header .banner .topnav .topnav-right ul li ul.dropdown li a {
 body header .banner .topnav .topnav-right ul li:hover ul.dropdown {
   display: block;
   /* Display the dropdown */
+}
+
+body header .banner .topnav .topnav-right ul li:hover ul.dropdown a:hover {
+  background-color: #ebebeb;
+}
+
+body header .banner .container {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+
+body header .banner .container .main-text {
+  position: absolute;
+  left: 25%;
+  top: 35%;
+}
+
+body header .banner .container .main-text p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-weight: lighter;
+  text-align: left;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+body article.section-heading {
+  background-color: white;
+}
+
+body article.section-heading .s1 {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+body article.section-heading .s1 h3 {
+  color: #82a501;
+  font-size: 2.5em;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+body article.section-heading .s1 p {
+  color: #9c9c9c;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+body article.section-heading .s1 h3,
+body article.section-heading .s1 p {
+  margin: 0;
+  vertical-align: middle;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+body article.section-heading .s2 {
+  padding-top: 2em;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+}
+
+body article.section-heading .s2 div {
+  width: 33.3%;
+}
+
+body article.section-heading .s2 div .icon {
+  width: 100%;
+  text-align: center;
+}
+
+body article.section-heading .s2 div .icon i {
+  color: white;
+  font-size: 2.5em;
+  padding: 0.5em;
+}
+
+body article.section-heading .s2 div .icon i#s2-icon1 {
+  background-color: #ffaf40;
+}
+
+body article.section-heading .s2 div .icon i#s2-icon2 {
+  background-color: #04b6ff;
+}
+
+body article.section-heading .s2 div .icon i#s2-icon3 {
+  background-color: #f46952;
+}
+
+body article.section-heading .s2 div .icon i#s2-icon4 {
+  background-color: #7d67bc;
+}
+
+body article.section-heading .s2 div .icon i#s2-icon5 {
+  background-color: #e24848;
+}
+
+body article.section-heading .s2 div .icon i#s2-icon6 {
+  background-color: #e248a6;
+}
+
+body article.section-heading .s2 div h4,
+body article.section-heading .s2 div p {
+  line-height: 1.8;
+  margin: 1em;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  vertical-align: middle;
+}
+
+body article.section-heading .s2 div h4 {
+  color: black;
+  font-weight: 500;
+  font-size: 1.2em;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+body article.section-heading .s2 div p {
+  color: #807b7b;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+body article.about-us {
+  padding-top: 2em;
+}
+
+body article.about-us .container {
+  background-color: #f9f9f9;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  padding: 1.2em;
+}
+
+body article.about-us .container div {
+  width: 50%;
+}
+
+body article.about-us .container div h4,
+body article.about-us .container div p {
+  margin: 0;
+  vertical-align: middle;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+body article.about-us .container div h4 {
+  color: black;
+  font-size: 2em;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+body article.about-us .container div p {
+  color: #656565;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  margin-right: 1em;
+  margin-top: 1em;
+  font-weight: 100;
+  line-height: 2em;
+}
+
+body article.about-us .container div button {
+  margin-top: 2em;
+  background-color: #04b6ff;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 0.8em 1.4em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+body article.about-us .container div img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
 }
 /*# sourceMappingURL=main.css.map */
